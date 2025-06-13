@@ -17,7 +17,7 @@ Este guia detalha o processo para criação, ativação e persistência de um ar
 ### 1. Acessar a instância via SSH
 
 ```bash
-ssh -i ./maquina_teste.pem admin@<IP_DA_INSTANCIA>
+ssh -i ./keyPem.pem <user>@<IP_DA_INSTANCIA>
 ```
 
 ---
